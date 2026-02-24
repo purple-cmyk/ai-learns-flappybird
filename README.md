@@ -1,3 +1,5 @@
+## Project Structure
+
 project/
 │
 ├── main.py                    # Main game and training logic
@@ -13,7 +15,7 @@ project/
 │   ├── base.png
 │   └── bg.png
 
-
+---
 
 ## Installation
 
@@ -23,8 +25,12 @@ Clone the repository:
 git clone <repository-url>
 cd <project-directory>
 
+
 python -m venv venv
-source venv/bin/activate    
-venv\Scripts\activate     
+source venv/bin/activate    # Linux / Mac
+venv\Scripts\activate       # Windows
+
+pip install -r requirements.txt
 
 python main.py
+```
